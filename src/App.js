@@ -2,8 +2,8 @@ import './App.css';
 import { Route , Routes } from 'react-router-dom';
 
 
-import LoginPage from './login_page';
-import RegisterPage from './register_page';
+import LoginPage from './Auth/Login';
+import RegisterPage from './Auth/Register';
 
 function App() {
   return (

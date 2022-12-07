@@ -24,6 +24,23 @@ font-family: Arial, Helvetica, sans-serif;
 .right_nav span{
   font-size: 1rem;
 }
+.nav-mobile{
+  display: none;
+}
+@media (max-width:991px) {
+
+  .nav-mobile{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-desktop{
+    display: none;
+  }
+  .menus{
+    
+  }
+}
+/* Login */
 
 .login-logo{
   background:linear-gradient(60deg, #ec407a, #d81b60);
@@ -63,7 +80,7 @@ font-family: Arial, Helvetica, sans-serif;
 .signup_form{
   z-index: 0;
   margin-top: -90px;
-  height: 40em;
+  height: 38em;
   width: 22em;
 }
 
